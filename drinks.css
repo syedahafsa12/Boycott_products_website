@@ -1,0 +1,371 @@
+@font-face {
+    font-family: maharlika;
+    src: url(maharlika.zip);
+}
+
+body {
+    background-color: #86EE60;
+}
+
+
+h1 {
+    font-family: maharlika;
+    font-size: 30px;
+    font-weight: bolder;
+    
+    margin-left: 0px;
+}
+
+
+.allimages {
+    margin-left: 200px;
+    margin-top: 50px;
+    
+}
+
+.h3 {
+    font-family: maharlika;
+    font-weight: bold;
+    font-size: 30px;
+
+    color: red;
+    margin-top: 80px;
+    margin-left: 0px;
+}
+
+.boycott>img {
+    margin-left: 0px;
+}
+
+.h2 {
+    font-family: maharlika;
+    font-weight: bold;
+    font-size: 30px;
+    
+    color: rebeccapurple;
+    margin-top: 80px;
+
+}
+
+@media only screen and (max-width: 1286px) {
+    h1 {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .h2 {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .h3 {
+        margin-left: 0px;
+        max-width: 100%;
+    }
+
+    .allimages {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .images {
+        max-width: 100%;
+    }
+
+    .images2 {
+        max-width: 100%;
+    }
+
+    .images3 {
+        max-width: 100%;
+    }
+
+    .images4 {
+        max-width: 100%;
+    }
+
+    .images5 {
+        max-width: 100%;
+    }
+
+    .images6 {
+        max-width: 100%;
+    }
+
+    .images7 {
+        max-width: 100%;
+    }
+
+    .images8 {
+        max-width: 100%;
+    }
+
+    .images9 {
+        max-width: 100%;
+    }
+
+    .images10 {
+        max-width: 100%;
+    }
+
+    .images11 {
+        max-width: 100%;
+    }
+
+    .images12 {
+        max-width: 100%;
+    }
+
+    .boycott {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        max-width: 100%;
+        margin-left: 300px;
+        display: inline-block;
+    }
+
+    .h2 {
+        max-width: 100%;
+        margin-left: 300px;
+        display: inline-block;
+    }
+
+    .h3 {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .images {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .images2 {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .images3 {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .images4 {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .images5 {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .images6 {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .images7 {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .images8 {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .images9 {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .images10 {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .images11 {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .images12 {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .allimages {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .boycott {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+}
+
+
+/* chatgpt code */
+/* @font-face {
+    font-family: maharlika;
+    src: url(maharlika.zip);
+}
+
+body {
+    background-color: #86EE60;
+    font-family: maharlika; /* Fallback font in case maharlika is not available */
+/* }
+
+h1, .h2, .h3 {
+    font-family: maharlika;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+.h2{
+    color: darkgreen;
+    
+}
+.h3{
+    color: red;
+    margin-top: 50px;
+}
+
+.allimages {
+    margin: 50px auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.boycott {
+    margin: 0 auto 50px;
+    max-width: 500px;
+}
+
+.images img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+@media only screen and (max-width: 992px) {
+    .boycott {
+        max-width: :200px; 
+        margin: 0 auto 20px;
+        margin-left: 0px;
+    }
+    h1, .h2, .h3 {
+        font-size: 40px;
+        
+
+    }
+    .images>img {
+        max-width: 370px;
+        height: auto;
+        display: block;
+        margin: 10px auto;  
+        margin-left: 0px;
+    }
+    .h2{
+        color: darkgreen;
+        
+    }
+    .h3{
+        color: red;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h1, .h2, .h3 {
+        font-size: 40px;
+        margin-left: 0px;
+    }
+    .h2{
+        color: darkgreen;
+        
+    }
+    .h3{
+        color: red;
+        margin-top: 50px;
+    }
+    .images img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+    }
+    .boycott {
+        max-width: 200px; 
+        margin: 0 auto 20px;
+        margin-left: 0px;
+    }
+} */
+/* bard code  */
+
+/* Load the custom font "maharlika" */
+/* @font-face {
+    font-family: maharlika;
+    src: url(maharlika.zip);
+  }
+  
+  /* Set the font family and font size for the body element */
+/* body {
+    background-color: #86EE60;
+    font-family: maharlika;
+    font-size: 1vw;
+  }
+  
+  /* Set the font family, font weight, text align, and font size for the <h1>, `.h2`, and `.h3` elements */
+/* h1, .h2, .h3 {
+    font-family: maharlika;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem; */
+/* } */
+
+/* Set the color of the `.h2` element */
+/* .h2 {
+    color: darkgreen;
+  } */
+
+/* Set the color and margin-top of the `.h3` element */
+/* .h3 {
+    color: red;
+    margin-top: 50px;
+  } */
+
+/* Set the margin and max-width for the `.allimages` element */
+/* .allimages {
+    margin: 50px auto;
+    max-width: 100%;
+  } */
+
+/* Set the margin and max-width for the `.boycott` element */
+/* .boycott {
+    margin: 0 auto 50px;
+    max-width: 100%;
+  } */
+
+/* Set the max-width, height, display, and margin for the `.images img` element */
+/* .images>img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+   */
+/* Media query for screens that are 576px wide or less */
+/* @media only screen and (max-width: 576px) { */
+/* Reduce the font size of the <h1>, `.h2`, and `.h3` elements to 1.5rem */
+/* h1, .h2, .h3 {
+      font-size: 1.5rem;
+    }
+  }  */

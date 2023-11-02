@@ -1,0 +1,216 @@
+body {
+    background-color: white;
+}
+
+.boymilk {
+    font-family: maharlika;
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.boymilkimg>div>img {
+    width: 250px;
+    height: 150px;
+}
+
+.altrmilk {
+    font-family: maharlika;
+    color: darkgreen;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.altrmilkimg>div>img {
+    width: 350px;
+    height: 400px;
+}
+
+.altrmilklowfat {
+    font-family: maharlika;
+    color: darkgreen;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.boymilklowfat {
+    font-family: maharlika;
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.altrmilklowfatimg>div>img {
+    width: 250px;
+    height: 150px;
+}
+
+.boylowfatmilkimg>div>img {
+    width: 200px;
+    height: 200px;
+}
+
+.altrpowdermilkimg>div>img {
+    width: 350px;
+    height: 400px;
+}
+
+.altrpowdermilk {
+    font-family: maharlika;
+    color: darkgreen;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.boypowdermilk {
+    font-family: maharlika;
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.boypowdermilkimg {
+    width: 200px;
+    height: 200px;
+}
+
+.altrteawhi {
+    font-family: maharlika;
+    color: darkgreen;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.altrteawhiimg>div>img {
+    width: 350px;
+    height: 400px;
+}
+
+.boyteawhi {
+    font-family: maharlika;
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.boyteawhiimg>div>img {
+    width: 200px;
+    height: 200px;
+}
+
+.altrflavmilk {
+    font-family: maharlika;
+    color: darkgreen;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.altrflavmilkimg>div>img {
+    width: 350px;
+    height: 400px;
+}
+
+.boyflavmilk {
+    font-family: maharlika;
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.boyflavmilkimg>div>img {
+    width: 200px;
+    height: 200px;
+}
+
+.altryoughurt {
+    font-family: maharlika;
+    color: darkgreen;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.altryoughurtimg>div>img {
+    width: 350px;
+    height: 400px;
+}
+
+.altrbutter {
+    font-family: maharlika;
+    color: darkgreen;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.boybutter {
+    font-family: maharlika;
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.altrbutterimg>div>img {
+    width: 350px;
+    height: 400px;
+}
+
+.boybutterimg>div>img {
+    width: 200px;
+    height: 200px;
+}
+
+
+@media only screen and (max-width:1286px) {
+        /* Text elements */
+        h1 {
+            font-size: 12px;
+        }
+    
+        .altrmilk,
+        .boymilk,
+        .altrmilklowfat,
+        .boymilklowfat,
+        .altrpowdermilk,
+        .boypowdermilk,
+        .altrteawhi,
+        .boyteawhi,
+        .altrflavmilk,
+        .boyflavmilk,
+        .altryoughurt,
+        .altrbutter,
+        .boybutter {
+            max-width: 100%;
+            font-size: 15px;
+        }
+    
+        /* Image elements */
+        .boymilkimg > div > img,
+        .altrmilkimg > div > img,
+        .altrmilklowfatimg > div > img,
+        .boylowfatmilkimg > div > img,
+        .altrpowdermilkimg > div > img,
+        .boypowdermilkimg,
+        .altrteawhiimg > div > img,
+        .boyteawhiimg > div > img,
+        .altrflavmilkimg > div > img,
+        .boyflavmilkimg > div > img,
+        .altryoughurtimg > div > img,
+        .altrbutterimg > div > img,
+        .boybutterimg > div > img {
+            width: 180px;
+            height: 150px;
+        }     
+    }
+    

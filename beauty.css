@@ -1,0 +1,250 @@
+{
+        font-family: maharlika;
+        src: url(maharlika.zip);
+    }
+
+    body {
+        background-color: #86EE60;
+        font-family: maharlika;
+    }
+
+    h2 {
+        color: red;
+        margin-top: 30px;
+    }
+
+    .h3 {
+        color: darkgreen;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: 30px;
+    }
+
+    .boycottbeauty>div>img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .baby1 {
+        color: red;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: 30px;
+    }
+
+    .baby2 {
+        color: darkgreen;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: 30px;
+    }
+
+    .lotion>img {
+        width: 200px;
+        height: 250px;
+    }
+
+    .boycottbaby>img {
+        width: 300px;
+        height: 250px;
+    }
+
+    .pkbaby>img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .boycotttooth {
+        color: red;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: 30px;
+    }
+
+    .boycotttooth2>img {
+        width: 200px;
+        height: 250px;
+    }
+
+    .pktooth {
+        color: darkgreen;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: 30px;
+    }
+
+    .pktooth2>img {
+        width: 200px;
+        height: 250px;
+    }
+
+    .soapboy {
+        color: red;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: 30px;
+    }
+
+    .soapboy2>div>img {
+        width: 200px;
+        height: 250px;
+    }
+
+    .soappk {
+        color: darkgreen;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: 30px;
+    }
+
+    .soappk2>div>img {
+        width: 200px;
+        height: 250px;
+    }
+
+    .pkcos {
+        color: darkgreen;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: 30px;
+    }
+
+    .pkcosimg>div>img {
+        width: 400px;
+        height: 250px;
+    }
+
+    .shampoo {
+        color: darkgreen;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: 30px;
+    }
+
+    .shampooimg>div>img {
+        width: 350px;
+        height: 300px;
+    }
+
+    .shamp {
+        color: red;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: 30px;
+    }
+
+    .shampimg>div>img {
+        width: 350px;
+        height: 300px;
+    }
+
+    @media only screen and (max-width:1286px) {
+        h1 {
+            margin-left: 0px;
+            max-width: 100%;
+            font-size: 15px;
+        }
+
+        h2 {
+            margin-left: 0px;
+            max-width: 100%;
+            font-size: 15px;
+        }
+
+        .h3 {
+            margin-left: 0px;
+            max-width: 100%;
+            font-size: 15px;
+        }
+
+        .boycottbeauty>div>img {
+            max-width: 100%;
+
+        }
+
+        .lotion>img {
+            max-width: 100%;
+        }
+
+        .baby1 {
+            max-width: 100%;
+            font-size: 15px;
+        }
+
+        .baby2 {
+            max-width: 100%;
+            font-size: 15px;
+        }
+
+        .boycottbaby>img {
+            max-width: 100%;
+            width: 200px;
+            height: 150px;
+        }
+
+        .boycottbeauty>div>img {
+            max-width: 100%;
+        }
+
+        .boycotttooth2>img {
+            max-width: 100%;
+        }
+
+        .pkbaby>img {
+            max-width: 100%;
+        }
+
+        .pktooth {
+            max-width: 100%;
+            font-size: 15px;
+        }
+
+        .soapboy2 {
+            max-width: 100%;
+        }
+
+        .soappk2 {
+            max-width: 100%;
+        }
+
+        .soappk {
+            max-width: 100%;
+            font-size: 14px;
+        }
+
+        .soapboy {
+            max-width: 100%;
+            font-size: 14px;
+        }
+
+        .boycotttooth {
+            font-size: 15px;
+        }
+
+        .pkcos {
+            max-width: 100%;
+        }
+
+        .pkcosimg>div>img {
+            max-width: 100%;
+            width: 200px;
+            height: 250px;
+        }
+
+        .shamp {
+            font-size: 25px;
+        }
+        .shampimg>div>img{
+            max-width: 100%;
+            width: 300px;
+            height: 300px;
+        }
+        .shampooimg>div>img{
+            max-width: 100%;
+            width: 300px;
+            height: 300px;
+        }
+        .shampoo{
+            font-size: 25px;
+        }
+    }
