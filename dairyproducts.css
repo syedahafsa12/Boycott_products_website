@@ -197,7 +197,6 @@ body {
     
         /* Image elements */
         .boymilkimg > div > img,
-        .altrmilkimg > div > img,
         .altrmilklowfatimg > div > img,
         .boylowfatmilkimg > div > img,
         .altrpowdermilkimg > div > img,
@@ -212,5 +211,9 @@ body {
             width: 180px;
             height: 150px;
         }     
+    .altrmilkimg > div > img{
+            width: 230px;
+            height: 285px;
+        }
     }
     
