@@ -1,0 +1,174 @@
+.navbar-brand:hover {
+    -webkit-animation-name: rotateIn;
+    animation-name: rotateIn;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    animation-duration: 0.3s;
+
+}
+@font-face {
+    font-family: maharlika;
+    src: url(maharlika.zip);
+}
+body {
+    background-color: #86EE60 !important;
+}
+
+.navbar-brand {
+
+    margin-left: 50px;
+
+}
+
+.navbar-brand>img {
+    width: 80px;
+    height: 60px;
+}
+
+.navbar-collapse {
+    margin-left: 50px;
+
+}
+
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #CAD2C5;
+    width: 100%;
+}
+
+.navbar-nav>li {
+    margin-right: 35px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: baseline;
+    margin-top: 13px;
+}
+
+.navbar-nav>li:hover {
+    cursor: pointer;
+}
+
+.nav-item:active {
+    color: white;
+}
+
+.button {
+    background-color: #86EE60;
+    color: white !important;
+
+    margin-top: 3px;
+    margin-left: 250px;
+    border-radius: 13px;
+    font-family: maharlika;
+    text-align: middle;
+    height: 30px;
+    box-shadow: black;
+    text-shadow: black;
+}
+
+.button:hover {
+    background-color: black;
+    color: black;
+}
+
+.img {
+    max-width: 1200px;
+    max-height: 550px;
+    margin-left: 60px;
+}
+
+.img2 {
+    max-width: 1200px;
+    max-height: 550px;
+    margin-left: 80px;
+}
+
+.img3 {
+    max-width: 1200px;
+    max-height: 550px;
+    margin-left: 80px;
+}
+.contact{
+    font-family: maharlika;
+    font-weight: bold;
+    font-size:50px ;
+    margin-left: 190px;
+    
+}
+
+@media only screen and (max-width: 1286px) {
+    .navbar-nav {
+        text-align: center;
+
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .img {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .img2 {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .img3 {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .pakmart {
+        margin-left: 0px;
+    }
+    
+    .contact{
+        max-width: 100%;
+        font-size: 30px;
+        margin-left: 40px;
+    }
+    
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar {
+        max-width: 100%;
+    }
+ 
+    .button {
+        float: right;
+    }
+
+    .img {
+        max-width: 100%;
+        margin-left: 0px;
+        
+    }
+
+    .img2 {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .img3 {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+    .contact{
+        max-width: 100%;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .pakmart {
+        margin-left: 0px;
+    } 
+}
