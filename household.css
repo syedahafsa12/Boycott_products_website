@@ -1,0 +1,86 @@
+body {
+    background-color: #86EE60;
+}
+
+h1 {
+    font-family: maharlika;
+    font-size: 30px;
+    font-weight: bolder;
+
+    margin-left: 0px;
+}
+
+.boysurf,
+.boyoil,
+.boytea {
+
+    font-family: maharlika;
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.boysurfimg>div>img,
+.altrsurfimg>div>img,
+.boyoilimg>div>img,
+.altroilimg>div>img,
+.altrteaimg>div>img,
+.boyteaimg>div>img {
+    width: 200px;
+    height: 200px;
+}
+
+.altrsurf,
+.altroil,
+.altrtea {
+    font-family: maharlika;
+    color: darkgreen;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.altrsurfimglast>img {
+    width: 400px;
+    height: 250px;
+}
+
+@media only screen and (max-width:1286px) {
+
+    /* Text elements */
+    h1 {
+        font-size: 12px;
+        font-weight: bolder;
+    }
+
+    .altrsurf,
+    .altrtea,
+    .boysurf,
+    .boyoil,
+    .boytea {
+        max-width: 100%;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    /* Image elements */
+    .boysurfimg>div>img,
+    .altrsurfimg>div>img,
+    .boyoilimg>div>img,
+    .altroilimg>div>img,
+    .altrteaimg>div>img,
+    .boyteaimg>div>img {
+        width: 180px;
+        height: 150px;
+    }
+
+    .altrsurfimglast>img {
+        width: 180px;
+        height: 170px;
+    }
+    .altroil{
+        font-size: 17px;
+        font-weight: bolder;
+    }
+}
